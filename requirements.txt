@@ -1,9 +1,9 @@
 torch
 torchvision
-torchaudio
 numpy
 pillow
+opencv-python-headless==4.8.1.78
 scikit-learn
 matplotlib
-opencv-python
+seaborn
 streamlit

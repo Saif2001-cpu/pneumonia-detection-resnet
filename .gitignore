@@ -30,7 +30,7 @@ venv/
 # If using Git LFS, you will commit pointers, not raw files
 # Git LFS will handle *.pth automatically
 # But still keep it ignored from normal Git
-models/
+#models/
 
 # ============================
 # Dataset (DO NOT upload to GitHub)
