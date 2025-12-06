@@ -1,3 +1,77 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ============================
+# Virtual environment
+# ============================
 venv/
+.env/
+.env.bak/
+*.env
+
+# ============================
+# Model weights & checkpoints
+# ============================
+*.pth
+*.pt
+*.pkl
+*.onnx
+
+# If using Git LFS, you will commit pointers, not raw files
+# Git LFS will handle *.pth automatically
+# But still keep it ignored from normal Git
+models/
+
+# ============================
+# Dataset (DO NOT upload to GitHub)
+# ============================
 data/
- 
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# ============================
+# Streamlit & cache files
+# ============================
+.streamlit/
+**/.streamlit/
+**/.cache/
+cache/
+logs/
+
+# ============================
+# MacOS system files
+# ============================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================
+# VS Code
+# ============================
+.vscode/
+
+# ============================
+# PyTorch / CV cache
+# ============================
+~/.cache/
+**/__pycache__/
+
+# ============================
+# Build artifacts
+# ============================
+build/
+dist/
+*.egg-info/
+
